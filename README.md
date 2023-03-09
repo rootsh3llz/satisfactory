@@ -9,11 +9,12 @@ Allows you to start a Stisfactory dedicated server easily using Docker technolog
 
 ## Table of contents
 
-- Requirements
-- Installation
-- Import save
-- Import/Edit server configuration (.ini)
-- Start/stop
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Import save](#import-save)
+- [Import or Edit server configuration](#import-or-edit-server-configuration)
+- [Start and stop server](#start-and-stop-server)
+- [Documentation](#documentation)
 
 ## Requirements
 
@@ -41,14 +42,15 @@ The recovered saves should be copied to the `satisfactory/SaveGames` folder befo
 
 If you don't have any saves you can skip this step. 
 
-## Import/Edit server configuration (.ini)
+## Import or Edit server configuration
 
 By downloading this repository inside `satisfactory/LinuxServer` you can find all the necessary `.ini` files for the dedicated server edited by me that increase performance.
 
 To make any changes follow the following [guide](https://satisfactory.fandom.com/wiki/Dedicated_servers/Configuration_files).
 
 If you have your own set of `.ini` files just copy them to `satisfactory/LinuxServer` before starting Docker and the dedicated server
-## Start/stop the server
+
+## Start and stop server
 To start the server
 ```bash
   cd your_path_for_satisfactory_repo/satisfactory/setup/
@@ -61,3 +63,7 @@ To stop the server
   cd your_path_for_satisfactory_repo/satisfactory/setup/
   ./stop.sh
 ```
+
+## Documentation
+
+[Documentation](https://satisfactory.fandom.com/wiki/Satisfactory_Wiki)
