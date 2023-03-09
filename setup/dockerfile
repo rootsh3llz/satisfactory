@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+RUN mkdir setup && cd /setup
+COPY container_setup.sh /setup
+RUN /setup/container_setup.sh
+CMD /home/satisfactory/server/entrypoint.sh
